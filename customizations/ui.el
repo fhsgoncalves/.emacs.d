@@ -26,7 +26,7 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'tomorrow-night-bright t)
+(load-theme 'darcula t)
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :height 140)
@@ -67,3 +67,10 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; set default font to monaco
+;; see install_monaco_font.sh 
+(set-default-font "monaco")
+;; configure a small size for monaco font
+(set-default-font "-apple-Monaco-normal-normal-normal-*-14-*-*-*-*-0-iso10646-1")
+
