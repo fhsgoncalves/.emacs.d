@@ -1,7 +1,13 @@
-# this is a Clojure-friendly emacs config
+# This is my emacs conf
 
-If you're new to emacs, check out
+I started using emacs when learning clojure. So, this conf is based on:
 [this introductory tutorial](http://www.braveclojure.com/basic-emacs/)!
+
+
+# Install
+```sh
+git clone https://github.com/fhsgoncalves/emacs-conf.git ~/.emacs.d
+```
 
 ## Organization
 
