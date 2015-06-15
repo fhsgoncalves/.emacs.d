@@ -37,6 +37,9 @@
 ;; (in lines high) Emacs will have whenever you start it
 ;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 177) (height . 53)))
 
+;; initial screen maximized
+(add-to-list 'initial-frame-alist '(fullscreen . maximized))
+
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
       x-select-enable-clipboard t
