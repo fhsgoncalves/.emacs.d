@@ -134,4 +134,6 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 
-(setq mac-option-modifier 'super)
+(setq mac-option-modifier 'meta)
+
+;(setq mac-command-modifier 'meta)
