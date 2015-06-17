@@ -32,3 +32,9 @@ Emacs has decent support for CSS, HTML, JS, and many other file types out of the
 * Adds support for YAML and SCSS using the yaml-mode and scss-mode packages
 
 In general, if you want to add support for a language then you should be able to find good instructions for it through Google. Most of the time, you'll just need to install the "x-lang-mode" package for it.
+
+## Useful commands
+
+Keybinding         | Description
+-------------------|------------------------------------------------------------
+<kbd>M-x package-list-packages RET U x</kbd> | Update all bundled packages
