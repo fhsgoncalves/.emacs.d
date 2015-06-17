@@ -45,6 +45,9 @@
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
     cider
+
+    ;; cider autocomplete
+    ;ac-cider
     
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
@@ -131,3 +134,4 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 
+(setq mac-option-modifier 'super)

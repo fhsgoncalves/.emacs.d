@@ -1399,8 +1399,7 @@ If location could not be found, return nil."
         (let ((file (nth 0 info))
               (line (nth 1 info))
               (col (nth 2 info)))
-          (unless (or (not (stringp file))
-                      (cider--tooling-file-p file))
+          (unless (cider--tooling-file-p file)
             (-when-let (buffer (cider-find-file file))
               (with-current-buffer buffer
                 (save-excursion
