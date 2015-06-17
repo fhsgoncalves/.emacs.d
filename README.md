@@ -35,6 +35,16 @@ In general, if you want to add support for a language then you should be able to
 
 ## Useful commands
 
+### Keybindings
+
 Keybinding         | Description
 -------------------|------------------------------------------------------------
 <kbd>M-x package-list-packages RET U x</kbd> | Update all bundled packages
+
+### Functions
+
+#### Reload the project.clj
+Source: http://hugoduncan.org/post/alembic_reloads_your_project_clj_dependencies/
+```clojure
+(alembic.still/load-project)
+```
