@@ -40,6 +40,10 @@ In general, if you want to add support for a language then you should be able to
 Keybinding         | Description
 -------------------|------------------------------------------------------------
 <kbd>M-x package-list-packages RET U x</kbd> | Update all bundled packages
+<kbd>M-d</kbd> | Delete the next word
+<kbd>M-DEL</kbd> | Delete the previous word
+<kbd>M-s</kbd> | Splice the form into the outer form (remove the quotes and parenteses)
+
 
 ### Functions
 
