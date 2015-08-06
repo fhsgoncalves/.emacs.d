@@ -43,7 +43,7 @@ Keybinding         | Description
 <kbd>M-d</kbd> | Delete the next word
 <kbd>M-DEL</kbd> | Delete the previous word
 <kbd>M-s</kbd> | Splice the form into the outer form (remove the quotes and parenteses)
-
+<kbd>C-u C-M-x</kbd> | Enable debug for current fn
 
 ### Functions
 
