@@ -6,7 +6,7 @@ I started using emacs when learning clojure. So, this conf is based on:
 
 # Install
 ```sh
-git clone https://github.com/fhsgoncalves/emacs-conf.git ~/.emacs.d
+git clone https://github.com/fhsgoncalves/.emacs.d.git ~/.emacs.d
 ```
 
 ## Organization
