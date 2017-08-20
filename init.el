@@ -37,14 +37,7 @@
 
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
-    clojure-mode
-
-    ;; extra syntax highlighting for clojure
-    clojure-mode-extra-font-locking
-
-    ;; integration with a Clojure REPL
-    ;; https://github.com/clojure-emacs/cider
-    cider
+;    clojure-mode
 
     ;; cider autocomplete
     ;ac-cider
@@ -66,10 +59,7 @@
     rainbow-delimiters
 
     ;; edit html tags like sexps
-    tagedit
-
-    ;; git integration
-    magit))
+    tagedit))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -131,8 +121,9 @@
 (load "elisp-editing.el")
 
 ;; Langauage-specific
-(load "setup-clojure.el")
+;(load "setup-clojure.el")
 (load "setup-js.el")
+(load "setup-elixir.el")
 
 (setq mac-option-modifier 'meta)
 
