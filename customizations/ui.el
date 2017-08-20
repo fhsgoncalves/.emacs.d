@@ -76,5 +76,5 @@
 ;; see install_monaco_font.sh 
 (set-default-font "monaco")
 ;; configure a small size for monaco font
-(set-default-font "-apple-Monaco-normal-normal-normal-*-14-*-*-*-*-0-iso10646-1")
+;(set-default-font "-apple-Monaco-normal-normal-normal-*-14-*-*-*-*-0-iso10646-1")
 
