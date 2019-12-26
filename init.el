@@ -103,6 +103,9 @@
 ;; environment variables
 (load "shell-integration.el")
 
+;; setup clipboard
+(load "clipboard.el")
+
 ;; These customizations make it easier for you to navigate files,
 ;; switch buffers, and choose options from the minibuffer.
 (load "navigation.el")
@@ -136,7 +139,9 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (ac-alchemist tagedit smex rainbow-mode rainbow-delimiters projectile paredit magit javap-mode ido-ubiquitous exec-path-from-shell eval-sexp-fu clojure-mode-extra-font-locking cider auto-package-update auto-complete alchemist))))
+    (xclip ac-alchemist tagedit smex rainbow-mode rainbow-delimiters projectile paredit magit javap-mode ido-ubiquitous exec-path-from-shell eval-sexp-fu clojure-mode-extra-font-locking cider auto-package-update auto-complete alchemist)))
+ '(select-enable-clipboard t)
+ '(x-select-enable-clipboard-manager t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
