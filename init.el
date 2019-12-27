@@ -139,7 +139,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (xclip ac-alchemist tagedit smex rainbow-mode rainbow-delimiters projectile paredit magit javap-mode ido-ubiquitous exec-path-from-shell eval-sexp-fu clojure-mode-extra-font-locking cider auto-package-update auto-complete alchemist)))
+    (fzf xclip ac-alchemist tagedit smex rainbow-mode rainbow-delimiters projectile paredit magit javap-mode ido-ubiquitous exec-path-from-shell eval-sexp-fu clojure-mode-extra-font-locking cider auto-package-update auto-complete alchemist)))
  '(select-enable-clipboard t)
  '(x-select-enable-clipboard-manager t))
 (custom-set-faces
