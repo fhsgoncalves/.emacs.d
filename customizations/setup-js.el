@@ -2,7 +2,12 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
 (add-hook 'js-mode-hook 'subword-mode)
 (add-hook 'html-mode-hook 'subword-mode)
+
+(setq web-mode-code-indent-offset 2)
+(setq web-mode-indent-style 2)
+(setq js2-basic-offset 2)
 (setq js-indent-level 2)
+
 (eval-after-load "sgml-mode"
   '(progn
      (require 'tagedit)
